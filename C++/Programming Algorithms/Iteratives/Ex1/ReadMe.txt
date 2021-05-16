@@ -5,7 +5,7 @@ On each case, you have to indicate the size of the vector and the position. Then
 
 For each case, it indicates if its true or false the restriction (SI or NO).
 
-Example entry:
+Example input:
 3
 4 5
 3 6 10 20
