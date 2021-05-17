@@ -1,0 +1,76 @@
+header {
+  grid-area: header;
+  height: max-content;
+  padding: 2em 4em;
+  background-color: #111;
+  color: #FFF;
+  /* border-bottom-style: groove; */
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  align-content: center;
+}
+
+header a,
+header a:visited {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #A00000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+div.saludo {
+  white-space: nowrap;
+  color: #FFF;
+  text-align: right;
+  direction: rtl;
+}
+
+#logo {
+  max-width: 20em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#buttonSidebar {
+  color: #FFF;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+div.Formulario {
+  text-align: right;
+  padding-top: 1em;
+}
+
+.botones{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  direction: rtl;
+}
+
+.logout{
+  color: #FFF;
+  
+}
+.user{
+  color: #FFF;
+  margin-right: 80px;
+}
+#login {
+  color: #FFF;
+  
+}
+#Registro {
+  color: #FFF;
+  margin-left: 1.5rem;
+}

@@ -1,0 +1,82 @@
+#sbi_nav {
+  position: fixed;
+  box-sizing: border-box;
+  width: 0;
+  height: 100%;
+  background-color: #111;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 5vh;
+  z-index: 100;
+  box-shadow: #A00000 25px 0px 25px -20px;
+}
+
+#contenedor_formulario{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#search {
+	flex-grow: 1;
+  padding: 12px 12px 12px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.5s;
+  border-radius: 10px;
+  text-overflow: ellipsis;
+}
+
+#lupita {
+	width: 2.5em;
+	height: 2.5em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+#sbi_nav .link,
+#sbi_nav .link:visited {
+  padding: 12px 12px 12px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  border-radius: 10px 0 0 10px;
+}
+
+#sbi_nav .link:hover,
+#sbi_nav .link:focus {
+  background-color: #c70000;
+  box-shadow: -3px -3px 10px #3e3e3e, -3px 3px 10px #3e3e3e;
+  color: #f1f1f1;
+  cursor: pointer;
+  transition: scale 5ms ease-out;
+}
+
+#sbi_nav li {
+  list-style-type: none;
+}
+#close_nav_button {
+  text-decoration: none;
+  font-size: 45px;
+  color: #818181;
+  padding: 1em;
+  margin-left: 0.5em;
+  transition: 200ms ease-out 0s;
+  border-radius: 10px;
+}
+
+#close_nav_button:hover,
+#close_nav_button:focus {
+  color: #c70000;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+#sbi_nav li {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}

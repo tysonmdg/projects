@@ -1,0 +1,60 @@
+.login{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+    background-color:#FFF;
+}
+
+.registro{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+}
+
+.registroAcademia{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+}
+
+.registroCurso{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+}
+
+.registroQuiz{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+}
+
+.editarPerfil{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    font-size:larger;
+}
+
+#borrar{
+    text-align: right;
+    margin-right: 80px;
+}
+
+
+#avatar{
+  max-width: 5em;
+  display: block;
+  text-align:left;
+}

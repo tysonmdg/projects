@@ -1,0 +1,90 @@
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/*Fondo detrás de la página*/
+body {
+  background-color: #343434;
+  height: 100%;
+  margin: 0px;
+}
+
+/*La página en si*/
+#cuerpo {
+  overflow:auto;
+  width: 100%;
+  margin: auto;
+  background-color: #343434;
+}
+
+#top{
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns:auto 20em;
+  grid-template-rows: 10em auto;
+  grid-template-areas: 
+    "header header"
+    "main aside"
+  ;
+}
+
+/*Contenido por defecto*/
+main {
+
+  grid-area: main;
+  min-height: 600px;
+  color:#FFF;
+  background-color: #343434;
+  box-sizing: border-box;
+  padding: 2em 8em;
+
+}
+
+/*TODO mover todos los campos a ficheros propios para facilitar la lectura*/
+
+fieldset .control {
+  width: 100%;
+}
+
+fieldset .grupo-control {
+  margin: 5px;
+}
+
+fieldset {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.search {
+  width: 13em;
+  float: left;
+  display: block;
+  border-radius: 15px;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+legend {
+  color: #fff;
+  background: #303030;
+  border: 1px solid black;
+  padding: 2px 6px;
+}
+
+label {
+  margin-right: 0.5em;
+  display: block;
+}
+
+a:link, a:visited, a:active,a:hover {
+  color:#FFF;
+}
+ 

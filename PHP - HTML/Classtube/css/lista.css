@@ -1,0 +1,33 @@
+#tabla{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#titulo{
+    padding: 0 1.2rem;
+}
+
+.usuario{
+    min-width: 10em;
+    flex: 1 0 30%;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 1em 1.2em;
+    border: 2px solid #222;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0.5em 1em;
+    transition: 0.3s ease-out;
+}
+
+.usuario:hover,
+.usuario:focus{
+    background-color: #A00000;
+    color: #FFF;
+    transform: scale(1.1);
+}
+
+.uname{
+    font-weight: bold;
+}
