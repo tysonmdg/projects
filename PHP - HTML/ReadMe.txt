@@ -1,4 +1,4 @@
-This is a project (currently on progress) that I am developping with a team of 6 classmates.
+This is a project that I am developping with a team of 6 classmates.
 
 It is a functional website for academies, private teachers and students. 
 
